@@ -1,25 +1,71 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
+import './App.css';
+import Roh from './Roh';
+import Ris1 from './Ris1';
+import Data from './Data';
+import Tdata from './Tdata';
+
+function App()
+{
+    return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <img src="pic3.jpg" style={{ width: '100px', height: '100px' }} />
+      <h1 style={{ color: 'blue' }}>React Reality</h1>
+      <center><table width='80%' border="1px">
+       
+          <tr>
+            <td>
+              <Roh />
+            </td>
+            </tr>
+            <tr>
+              <td>
+             <Ris1 />
+              </td>
+            </tr>
+            </table>
+            </center>
+              
+            
+          
+
+          
+          <center >
+            <table>
+            
+          <tr>
+            
+           
+            
+            
+             <td colSpan={2}>
+              <Data/>
+            </td>
+            </tr>
+            <tr>
+              <td colSpan={2}>
+              <Tdata/>
+              </td>
+            </tr>
+            
+
+            </table>
+            </center>
+           
+          
+          
+          
+          
+         
+        
+      
+      </div>
+     
+     
+    
   );
 }
 
 export default App;
+
+
