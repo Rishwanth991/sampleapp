@@ -4,6 +4,7 @@ import Roh from './Roh';
 import Ris1 from './Ris1';
 import Data from './Data';
 import Tdata from './Tdata';
+import Dummy from './Dummy';
 
 function App()
 {
@@ -52,7 +53,7 @@ function App()
             </table>
             </center>
            
-          
+          <Dummy/>
           
           
           
